@@ -1,0 +1,5 @@
+streamlit
+mesa==2.2.1
+matplotlib
+pandas
+numpy
