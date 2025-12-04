@@ -18,10 +18,6 @@ st.set_page_config(
     page_icon="⚓"
 )
 
-# 中文支持
-plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'Arial Unicode MS', 'SimSun']
-plt.rcParams['axes.unicode_minus'] = False 
-
 # ==========================================
 # 1. 核心模型逻辑 (Mesa Backend)
 # ==========================================
