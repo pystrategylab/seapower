@@ -9,6 +9,8 @@ from mesa.datacollection import DataCollector
 
 # ==========================================
 # 0. 全局配置
+plt.rcParams['font.sans-serif'] = ['WenQuanYi Zen Hei', 'SimHei', 'sans-serif']
+plt.rcParams['axes.unicode_minus'] = False # 解决负号显示问题
 # ==========================================
 st.set_page_config(
     page_title="Python 历史战略室",
